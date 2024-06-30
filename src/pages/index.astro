@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../sections/Header.astro';
+import Content from '../sections/Content.astro';
+import Footer from '../sections/Footer.astro';
+---
+
+<Layout title="AYALA IT Empresa de Desarrollo de Software">	
+	<main class="index-container">
+		<Header></Header>	
+		<Content></Content>
+		<Footer></Footer>
+	</main>
+</Layout>
+
+<style>
+	main{
+		
+	}
+	.index-container{
+		display: grid;
+		position: relative;
+		grid-template-areas: 
+		'header-area header-area header-area'
+		'side-area-left content-area side-area-right'
+		'side-area-left footer-area side-area-right';
+		grid-gap: 10px;
+		max-width: 1080;
+		height: 120vh;
+		
+	}
+</style>
+
+

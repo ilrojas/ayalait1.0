@@ -1,0 +1,269 @@
+---
+const props = Astro.props
+---
+<section class="header">
+    <section></section>
+    <nav class="navigation">
+        <img src="./public/imgs/logoayala.png">
+        <label for="label_hamburguesa" class="label_hamburguesa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/></svg>
+        </label>
+        <input class="check_menu" type="checkbox" id="label_hamburguesa">
+        <ul class="ul_link">
+            <li class="list active">
+                <a href="">
+                    <span class="text">Inicio</span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="currentColor" d="M4 21V9l8-6l8 6v12h-6v-7h-4v7z"/></svg>
+                    </span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="">
+                    <span class="text">Servicios</span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="currentColor" d="M17 21.025q-.2 0-.4-.05t-.375-.175l-3-1.75q-.35-.2-.537-.537t-.188-.738V14.25q0-.4.188-.737t.537-.538l3-1.75q.175-.125.375-.175T17 11t.388.063t.362.162l3 1.75q.35.2.55.538t.2.737v3.525q0 .4-.2.738t-.55.537l-3 1.75q-.175.1-.363.163t-.387.062M2 20v-2.8q0-.825.425-1.55t1.175-1.1q1.275-.65 2.875-1.1T10 13h.35q.15 0 .3.05q-.725 1.8-.6 3.575T11.25 20zm8-8q-1.65 0-2.825-1.175T6 8t1.175-2.825T10 4t2.825 1.175T14 8t-1.175 2.825T10 12m4.65 1.85L17 15.225l2.35-1.375L17 12.5zm3.1 5.2l2.25-1.3V15l-2.25 1.325zM14 17.75l2.25 1.325V16.35L14 15.025z"/></svg>
+                    </span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="">
+                    <span class="text">Demos</span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21L3 9h18l-2 12zm1.675-2h10.65l1.275-8H5.4zM10 15h4q.425 0 .713-.288T15 14t-.288-.712T14 13h-4q-.425 0-.712.288T9 14t.288.713T10 15M6 8q-.425 0-.712-.288T5 7t.288-.712T6 6h12q.425 0 .713.288T19 7t-.288.713T18 8zm2-3q-.425 0-.712-.288T7 4t.288-.712T8 3h8q.425 0 .713.288T17 4t-.288.713T16 5zM6.675 19h10.65z"/></svg>
+                    </span>                    
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="">
+                    <span class="text">Nosotros</span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="currentColor" d="M1 20v-2.8q0-.85.438-1.562T2.6 14.55q1.55-.775 3.15-1.162T9 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T17 17.2V20zm18 0v-3q0-1.1-.612-2.113T16.65 13.15q1.275.15 2.4.513t2.1.887q.9.5 1.375 1.112T23 17v3zM9 12q-1.65 0-2.825-1.175T5 8t1.175-2.825T9 4t2.825 1.175T13 8t-1.175 2.825T9 12m10-4q0 1.65-1.175 2.825T15 12q-.275 0-.7-.062t-.7-.138q.675-.8 1.038-1.775T15 8t-.362-2.025T13.6 4.2q.35-.125.7-.163T15 4q1.65 0 2.825 1.175T19 8"/></svg>
+                    </span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="">
+                    <span class="text">Contáctanos</span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="currentColor" d="M2 21q-.825 0-1.412-.587T0 19V5q0-.825.588-1.412T2 3h20q.825 0 1.413.588T24 5v14q0 .825-.587 1.413T22 21zm7-7q1.25 0 2.125-.875T12 11t-.875-2.125T9 8t-2.125.875T6 11t.875 2.125T9 14m-6.9 5h13.8q-1.05-1.875-2.9-2.937T9 15t-4 1.063T2.1 19M15 11h5q.425 0 .713-.288T21 10V7q0-.425-.288-.712T20 6h-5q-.425 0-.712.288T14 7v3q0 .425.288.713T15 11m2.5-2.25l1.85-1.3q.2-.15.425-.038t.225.363q0 .025-.175.35l-1.75 1.225q-.275.2-.575.2t-.575-.2l-1.75-1.225Q15.15 8.1 15 7.775q0-.25.225-.363t.425.038z"/></svg>
+                    </span>                    
+                    <span class="circle"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>    
+</section>
+
+<style>
+ 
+    @media(min-width: 850px){
+        .label_hamburguesa, #label_hamburguesa{
+            display: none;
+        }
+        
+    }
+    @media(max-width: 849px){
+        .check_menu:checked + .ul_link{
+            height: calc(100vh);
+        }
+        .navigation{
+            display: flex;
+            flex-wrap: wrap;
+            position: -webkit-sticky; /* For Safari */
+            position: sticky;
+            top:0;
+            justify-content: space-between;
+            align-items: center;  
+            border-radius: 0% !important;
+            width: 100% !important;
+            z-index: 1000;
+        }
+
+        .ul_link{
+            background-color: rgb(38, 0, 43);
+            z-index: 1000;
+            position: absolute;
+            top: 80px;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+           /* height: calc(100vh);*/
+            height: 0;
+            overflow: hidden;
+            gap: 2rem;
+            li{
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            li .active{
+               /* transform: none!important;
+                opacity: 1;
+                filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));*/
+                .icon{
+                    transform: none !important;
+                    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+                    opacity: 1 !important;
+                }
+                .text{
+                    transform: none !important;
+                    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+                    opacity: 1 !important;
+                }
+            }
+            li:hover{
+                /*transform: none !important;
+                opacity: 1;
+                filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));*/
+                .icon{
+                    transform: none !important;
+                    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+                    opacity: 1 !important;
+                    cursor: pointer;
+                }
+                .text{
+                    transform: none !important;
+                    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+                    opacity: 1 !important;
+                }
+            }
+            li{
+                a{
+                    display: inline-block !important;                    
+                    .icon{
+                        width: 95px !important;
+                        height: 95px;
+
+                        color:#fff;
+                        transition: 0.2s;
+                        opacity: 1!important;
+                    }
+                    .text{
+                        display: block;
+                        padding-left: 50px;
+
+                        position: absolute;
+                        color: #fff;
+                        font-weight: 400;
+                        
+                        /*transform: translateX(50px);*/
+                        font-size: 1rem;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+        img{
+            width: 90px;
+            height: 90px;
+            padding-left: 0;
+        }
+        .header{
+            
+            padding-top: 0% !important;
+        }
+    }
+
+    .header{
+		
+		grid-area: header-area;
+		display: flex;
+		justify-content: center;
+		padding-top: 15px;
+	}
+
+    #label_hamburguesa{
+        display: none;
+    }
+    
+    img{
+        width: 90px;
+        height: 90px;
+        padding-left: 0;
+    }
+    
+    .navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        background-color: rgb(38, 0, 43); 
+        border-radius: 40px; 
+        z-index: 1000; 
+        position: -webkit-sticky; /* For Safari */
+        position: sticky;
+        .text{
+            text-transform: uppercase;
+        }
+        img{
+            display: flex;
+            justify-content: start;
+        }
+        .ul_link{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 75%;            
+            gap: 20px;
+            li.active{
+                .icon{
+                    transform: translateY(10px);
+                    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+                    opacity: 1;
+                }
+                .text{
+                    transform: translateY(-25px);
+                    opacity: 0;
+                }
+            }
+            li{
+                list-style: none;
+                position: relative;
+                z-index: 1000;
+                transition: 0.05s ease-in;
+                a{
+                    position: relative;
+                    display: flex;
+                    width: 90px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    .text{
+                        position: absolute;
+                        display: block;
+                        color: #fff;
+                        font-weight: 400;
+                        font-size: 1em;
+                        transition: 0.3s;
+                    }
+                    .icon{
+                        color:#fff;
+                        transform: translateY(40px);
+                        transition: 0.2s;
+                        opacity: 0;
+                    }
+                }
+            }
+            li:hover{
+                .icon{
+                    transform: translateY(10px);                    
+                    opacity: 1;
+                    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+                }
+                .text{
+                    transform: translateY(-25px);
+                    opacity: 0;
+                }
+            }
+        }
+    }
+
+</style>
+
+
+
